@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="fotisPhysio.Services" Title="Services">
+    <ContentPage.Content>
+        <!--<Label Text="I am Services Page"></Label>-->
+        <StackLayout>
+            
+        <Button Text="Sports / Orthopaedic Physiotherapy" Clicked="Sports_Orthopaedic_Physiotherapy"></Button>
+        <Button Text="Chiropractic" Clicked="Chiropractic"></Button>
+        <Button Text="Massage Therapy" Clicked="Massage_Therapy"></Button>
+        <Button Text="Acupuncture" Clicked="Acupuncture"></Button>
+        <Button Text="In-Home Physio" Clicked="In_Home_Physio"></Button>
+        <Button Text="Pelvic Health Therapy" Clicked="Pelvic_Health_Therapy"></Button>
+        <Button Text="Motor Vehicle Accident Rehab" Clicked="Motor_Vehicle_Accident_Rehab"></Button></StackLayout>
+
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="fotisPhysio.MyHomePage" Title="Home">
+   <ContentPage.Content Padding="10" Title="Welcome!! to Fotis Physio and Wellness">
+               <StackLayout Margin="5,30,5,5">
+                  
+                    <Label Text="Welcome to Fotis Physio and Wellness" HorizontalOptions="Center" VerticalOptions="CenterAndExpand"></Label>
+            <Image Source="logofortis.png"></Image>
+                    <Label Text="Fotis Physio and Wellness is committed to providing high quality assessment and treatment of all injuries from accidents, sports, workplace injuries or chronic pain.We treat variety of conditions, including pre and post-surgery rehabilitation." HorizontalOptions="Center" VerticalOptions="CenterAndExpand"></Label>
+                    
+
+                </StackLayout>
+                </ContentPage.Content>
+   
+</ContentPage>
+
