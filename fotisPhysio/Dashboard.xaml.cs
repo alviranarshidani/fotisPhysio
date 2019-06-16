@@ -13,5 +13,18 @@ namespace fotisPhysio
             
             
         }
+
+        async void btnProfile_ClickedAsync(object sender, System.EventArgs e)
+        {
+            var newPage = new Profile();
+            await Navigation.PushAsync(newPage);
+        }
+
+        async void btnAppointments_ClickedAsync(object sender, System.EventArgs e)
+        {
+            var newPage = new AppointmentHistory();
+            await Navigation.PushAsync(newPage);
+        }
+        
     }
 }

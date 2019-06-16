@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="fotisPhysio.AppointmentHistory"
+             Title="Appointment History">
+    <ContentPage.Content>
+        <StackLayout HorizontalOptions="CenterAndExpand">
+            <Image Source="ic_appointment_history.png" HeightRequest="100" HorizontalOptions="Center" Margin="0,30,0,0"></Image>
+           
+           
+            <Label Text="Appointment 1" Margin="0,30,0,0"></Label>
+            <Label Text="Appointment 2" Margin="0,30,0,0"></Label>
+            <Label Text="Appointment 3" Margin="0,30,0,0"></Label>
+            <Label Text="Appointment 4" Margin="0,30,0,0"></Label>
+            <Label Text="Appointment 5" Margin="0,30,0,0"></Label>
+            
+        </StackLayout>
+        
+    </ContentPage.Content>
+</ContentPage>
