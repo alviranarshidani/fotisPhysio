@@ -137,5 +137,6 @@
   <ItemGroup>
     <BundleResource Include="new.png" />
     <BundleResource Include="Resources\logofortis.png" />
+    <BundleResource Include="Resources\user.png" />
   </ItemGroup>
 </Project>

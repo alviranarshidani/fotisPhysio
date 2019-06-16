@@ -21,5 +21,9 @@
   <ItemGroup>
     <Compile Remove="HomePage.xaml.cs" />
     <Compile Remove="MasterPage.xaml.cs" />
+    <Compile Remove="Resources.Designer.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="Resources\user.png" />
   </ItemGroup>
 </Project>

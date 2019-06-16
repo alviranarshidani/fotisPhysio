@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="fotisPhysio.Dashboard"
+              Title="Dashboard">
+    
+    <ContentPage.Content>
+        <StackLayout>
+            <Image Source="user.png" HeightRequest="100"></Image>
+            <Button x:Name="Profile"  Text="Profile" ></Button>
+            <Button x:Name="Appointments" Text="Appointments"></Button>
+       </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
