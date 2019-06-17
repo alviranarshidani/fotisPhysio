@@ -72,6 +72,12 @@
     <None Include="Properties\AndroidManifest.xml" />
     <None Include="Resources\new.png" />
     <None Include="Resources\logofortis.png" />
+    <None Include="Resources\sports1.png" />
+    <None Include="Resources\chiro.png" />
+    <None Include="Resources\massage.png" />
+    <None Include="Resources\homeIn.png" />
+    <None Include="Resources\acuu.png" />
+    <None Include="Resources\pelvic.png" />
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\layout\Tabbar.axml" />

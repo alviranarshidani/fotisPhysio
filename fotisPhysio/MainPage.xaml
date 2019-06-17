@@ -7,19 +7,17 @@
 
             <ContentPage Padding="10" BackgroundColor="White" Title="Fotis Physio and Wellness" Icon="new.png">
             <ContentPage.Content>
+                
                <StackLayout Margin="5,30,5,5" >
+                    
                     <Label Text="Fotis Physio and Wellness" ></Label>
+                    <Button Text="Home" Clicked="Handle_Clicked_5" ></Button> 
                     <Button Text="Login"  Clicked="Handle_Clicked"></Button>
-             <Button Text="Services"  Clicked="Handle_Clicked_1" ></Button>
+                    <Button Text="Services"  Clicked="Handle_Clicked_1" ></Button>
                     <Button Text="About Us"  Clicked="Handle_Clicked_2"></Button>
-                     <Button Text="Contact Us"  Clicked="Handle_Clicked_3"></Button>
-                  
-                     <Button Text="Careers"  Clicked="Handle_Clicked_4" ></Button>
-                  
-                  <Button Text="Home" Clicked="Handle_Clicked_5" IsVisible="false"></Button>
-                          
-                   
-                </StackLayout>
+                    <Button Text="Contact Us"  Clicked="Handle_Clicked_3"></Button>
+                    <Button Text="Careers"  Clicked="Handle_Clicked_4" ></Button>
+                   </StackLayout>
                 </ContentPage.Content>
             </ContentPage>
         
@@ -27,6 +25,7 @@
    
     <MasterDetailPage.Detail>
         
+      
         
             <ContentPage Padding="10" Title="Welcome!! to Fotis Physio and Wellness">
             <ContentPage.Content>
