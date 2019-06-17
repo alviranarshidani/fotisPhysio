@@ -137,11 +137,17 @@
   <ItemGroup>
     <BundleResource Include="new.png" />
     <BundleResource Include="Resources\logofortis.png" />
+<<<<<<< HEAD
     <BundleResource Include="Resources\sports1.png" />
     <BundleResource Include="Resources\chiro.png" />
     <BundleResource Include="Resources\massage.png" />
     <BundleResource Include="Resources\acuu.png" />
     <BundleResource Include="Resources\pelvic.png" />
     <BundleResource Include="Resources\homeIn.png" />
+=======
+    <BundleResource Include="Resources\ic_user.png" />
+    <BundleResource Include="Resources\ic_dashboard.png" />
+    <BundleResource Include="Resources\ic_appointment_history.png" />
+>>>>>>> ffdaab457802ed6dcb27f54a59f9a087be84bf72
   </ItemGroup>
 </Project>
