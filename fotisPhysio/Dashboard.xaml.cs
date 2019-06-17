@@ -14,7 +14,7 @@ namespace fotisPhysio
             
         }
 
-        async void btnProfile_ClickedAsync(object sender, System.EventArgs e)
+        async void btnProfile_Clicked(object sender, System.EventArgs e)
         {
             var newPage = new Profile();
             await Navigation.PushAsync(newPage);

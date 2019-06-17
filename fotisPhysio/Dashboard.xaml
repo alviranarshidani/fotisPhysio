@@ -5,7 +5,7 @@
     <ContentPage.Content>
         <StackLayout>
             <Image Source="ic_dashboard.png" HeightRequest="100" HorizontalOptions="Center" Margin="0,30,0,0"></Image>
-            <Button x:Name="Profile"  Text="Profile" Clicked="btnProfile_ClickedAsync"></Button>
+            <Button x:Name="Profile"  Text="Profile" Clicked="btnProfile_Clicked"></Button>
             <Button x:Name="Appointments" Text="Appointments" Clicked="btnAppointments_ClickedAsync"></Button>
        </StackLayout>
     </ContentPage.Content>
