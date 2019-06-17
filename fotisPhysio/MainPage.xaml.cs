@@ -31,7 +31,7 @@ namespace fotisPhysio
             IsPresented = false;
         }
 
-        void Home(object sender, System.EventArgs e)
+        void HomeHandler(object sender, System.EventArgs e)
         {
             Detail = new NavigationPage(new MyHomePage());
 
