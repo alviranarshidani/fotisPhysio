@@ -9,6 +9,5 @@
          <Label Text="Office: (866) 700-8054" Margin="25,250,0,20"></Label>
          <Label Text="Mail: info@fotisphysio.com" Margin="25,275,0,20"></Label>
         </Grid>
-   
     </ContentPage.Content>
 </ContentPage>
