@@ -2,10 +2,10 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="fotisPhysio.Services" Title="Services">
     <ContentPage.Content>
         <!--<Label Text="I am Services Page"></Label>-->
-        <Grid>
+        <Grid HorizontalOptions="CenterAndExpand"> 
         
        
-            <StackLayout Grid.Row="0" Orientation="Horizontal" Margin="10">
+            <StackLayout Grid.Row="0" Orientation="Horizontal" Margin="10"  >
             <Image Source="sports1.png" HeightRequest="50" WidthRequest="50"></Image>
             <Button x:Name="sports" Text="Sports / Orthopaedic" FontSize="Large" Clicked="Sports_Orthopaedic_Physiotherapy"></Button></StackLayout>
              
@@ -15,7 +15,7 @@
             <StackLayout Grid.Row="2" Orientation="Horizontal" Margin="10">
                 <Image Source="massage.png" HeightRequest="50" WidthRequest="50"></Image>
         <Button x:Name="Massage"  Text="Massage Therapy" FontSize="Large" Clicked="Massage_Therapy"></Button></StackLayout>
-            <StackLayout Grid.Row="3" Orientation="Horizontal" Margin="10">
+            <StackLayout Grid.Row="3" Orientation="Horizontal" Margin="10  ">
                  <Image Source="sports1.png" HeightRequest="50" WidthRequest="50"></Image>
         <Button x:Name="acupuncture" Text="Acupuncture" FontSize="Large" Clicked="Acupuncture"></Button></StackLayout>
             <StackLayout Grid.Row="4" Orientation="Horizontal" Margin="10">
