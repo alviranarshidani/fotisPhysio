@@ -5,19 +5,16 @@ using Xamarin.Forms;
 
 namespace fotisPhysio
 {
-    public partial class Careers : ContentPage
+    public partial class Careerform : ContentPage
     {
-        public Careers()
+        public Careerform()
         {
             InitializeComponent();
         }
-
-
-        async void Apply(object sender, System.EventArgs e)
+        async void Upload (object sender, System.EventArgs e)
         {
-            var newPage = new Careerform();
+            var newPage = new Careers();
             await Navigation.PushAsync(newPage);
         }
-
     }
 }
