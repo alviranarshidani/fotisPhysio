@@ -78,6 +78,9 @@
     <None Include="Resources\homeIn.png" />
     <None Include="Resources\acuu.png" />
     <None Include="Resources\pelvic.png" />
+    <None Include="Resources\th-2.jpeg" />
+    <None Include="Resources\th-3.jpeg" />
+    <None Include="Resources\users-17.png" />
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\layout\Tabbar.axml" />

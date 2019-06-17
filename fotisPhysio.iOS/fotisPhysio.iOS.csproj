@@ -149,5 +149,8 @@
     <BundleResource Include="Resources\ic_dashboard.png" />
     <BundleResource Include="Resources\ic_appointment_history.png" />
 
+    <BundleResource Include="Resources\th-2.jpeg" />
+    <BundleResource Include="Resources\th-3.jpeg" />
+    <BundleResource Include="Resources\users-17.png" />
   </ItemGroup>
 </Project>
