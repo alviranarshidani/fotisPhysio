@@ -1,7 +1,12 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="fotisPhysio.About_Us" Title="About us">
     <ContentPage.Content>
-         <Label Text="I am About us Page.."></Label>
+        <Grid>
+            <Label Text="About Us" FontSize="Large" HorizontalOptions="Center"></Label>
+        <Label Text="Fotis Physio and wellness provides Physiotherapy Massage and Rehabilitation services in Barrie and surrounding areas." Margin="20,50"></Label>
+            <Label Text="Our Mission Statement" Margin="0,150" HorizontalOptions="Center" TextColor="Green"></Label>
+            <Label Text="Fotis Physio and wellness strives to provide the highest quality of one-on-one physiotherapeutic intervention. Our goal is to provide Quality care to all clientele and to work as a team with all patients to achieve optimal health and personal wellbeing." Margin="20,200"></Label>
+        </Grid>
    
     </ContentPage.Content>
 </ContentPage>
