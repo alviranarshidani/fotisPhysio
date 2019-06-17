@@ -1,14 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="fotisPhysio.Bookmyappointment">
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="fotisPhysio.Bookmyappointment" Title="Book Appointment">
     <ContentPage.Content>
         <Grid>
         <StackLayout Grid.Row="0" VerticalOptions="Center">
-                <Entry Placeholder="Enter First Name" Margin="10,10,10,10"></Entry>
-                <Entry Placeholder="Enter Last Name" Margin="10,10,10,10"></Entry>
-                <Entry Placeholder="Enter Email" Margin="10,10,10,10"></Entry>
-                <Entry Placeholder="Enter Password" Margin="10,10,10,10"></Entry>
+                <Entry Placeholder="Enter Name" Margin="10,10,10,10"></Entry>
+                <Entry Placeholder="Enter Email ID" Margin="10,10,10,10"></Entry>
+                <Entry Placeholder="Enter Phone Number" Margin="10,10,10,10"></Entry>
+                <Entry Placeholder="Current Patient" Margin="10,10,10,10"></Entry>
+                <Entry Placeholder="Type of Appointment" Margin="10,10,10,10"></Entry>
+                <Entry Placeholder="Preferred Appointment Date" Margin="10,10,10,10"></Entry>
+                <Entry Placeholder="Preferred Appointment Time" Margin="10,10,10,10"></Entry>
                 
-                <Entry Placeholder="Enter Emeregency Contact Name" Margin="10,20,10,10"></Entry><Entry Placeholder="Enter Emeregency Contact Number" Margin="10,10,10,10"></Entry>
+                
+                
             <Button Text="Submit" Clicked="Submit_Clicked"></Button>
             </StackLayout>
                     </Grid>

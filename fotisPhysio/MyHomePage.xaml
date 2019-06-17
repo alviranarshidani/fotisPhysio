@@ -1,14 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="fotisPhysio.MyHomePage" Title="Home">
    <ContentPage.Content Padding="10" Title="Welcome!! to Fotis Physio and Wellness">
-               <StackLayout Margin="5,30,5,5">
+               <StackLayout >
                   
-                    <Label Text="Welcome!! to Fotis Physio and Wellness" HorizontalOptions="Center" VerticalOptions="CenterAndExpand"></Label>
-            <Image Source="logofortis.png"></Image>
-                    <Label Text="Fotis Physio and Wellness is committed to providing high quality assessment and treatment of all injuries from accidents, sports, workplace injuries or chronic pain.We treat variety of conditions, including pre and post-surgery rehabilitation." HorizontalOptions="Center" VerticalOptions="CenterAndExpand"></Label>
-            <Button Text="Services" Clicked="Services_Clicked"></Button>        
-            <Button Text="Request an Appointment" Clicked="Book_Appointment"></Button>
-
+               
+            <Image Source="logofortis.png" Margin="0,60,0,0"></Image>
+            <Label Text="Fotis Physio and Wellness is committed to providing high quality assessment and treatment of all injuries from accidents, sports, workplace injuries or chronic pain.We treat variety of conditions, including pre and post-surgery rehabilitation." HorizontalTextAlignment="Center" Margin="0,20,0,0"></Label>
+            <Button Text="Services" Clicked="Services_Clicked" Margin="5,40,5,6" ></Button>        
+            <Button Text="Request an Appointment" Clicked="Book_Appointment" ></Button>
                 </StackLayout>
                 </ContentPage.Content>
    

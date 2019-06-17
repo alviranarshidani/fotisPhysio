@@ -13,7 +13,7 @@ namespace fotisPhysio
         }
         async void Submit_Clicked(object sender, System.EventArgs e)
         {
-            var newPage = new MyHomePage();
+            var newPage = new Dashboard();
             await Navigation.PushAsync(newPage);
         }
     }
