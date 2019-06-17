@@ -1,7 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="fotisPhysio.Login" Title="Login">
     <ContentPage.Content>
-         <Label Text="I am Login Page!!!"></Label>
+        <Grid>
+            <StackLayout Grid.Row="0" Margin="0,50,0,0">
+                <Entry Placeholder="username" ></Entry>
+                <Entry Placeholder="Password" ></Entry>
+               <Button Text="Forgot Password" HorizontalOptions="End" FontSize="Small" Clicked="Forgot_Password_Clicked"></Button>
+            
+                <Button Text="Login" HorizontalOptions="Center" Clicked="Login_Clicked"></Button>
+            <Button Text="New User?" HorizontalOptions="Center" FontSize="Small" Clicked="NewUser_Clicked"></Button>
+            </StackLayout>
+            
+             
+        </Grid>
+        
+        
     </ContentPage.Content>
     
 </ContentPage>
