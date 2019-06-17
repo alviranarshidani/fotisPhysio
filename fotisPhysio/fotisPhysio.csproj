@@ -17,13 +17,24 @@
   <ItemGroup>
     <EmbeddedResource Remove="HomePage.xaml" />
     <EmbeddedResource Remove="MasterPage.xaml" />
+    <EmbeddedResource Remove="MyPage.xaml" />
   </ItemGroup>
   <ItemGroup>
     <Compile Remove="HomePage.xaml.cs" />
     <Compile Remove="MasterPage.xaml.cs" />
+
     <Compile Remove="Resources.Designer.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Remove="Resources\user.png" />
+
+    <Compile Remove="MyPage.cs" />
+    <Compile Remove="MyPage.xaml.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Condition=" '$(EnableDefaultCompileItems)' == 'true' " Update="Book appointment.xaml.cs">
+      <DependentUpon>Book appointment.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
 </Project>

@@ -106,7 +106,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\fotisPhysio\fotisPhysio.csproj">
-      <Project>{B6D810FE-2680-4FEC-8A46-57542FD4629B}</Project>
+      <Project>{445FF6AA-7D30-45C5-9AFC-BBC2233E103D}</Project>
       <Name>fotisPhysio</Name>
     </ProjectReference>
   </ItemGroup>

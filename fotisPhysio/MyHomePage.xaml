@@ -6,7 +6,8 @@
                     <Label Text="Welcome!! to Fotis Physio and Wellness" HorizontalOptions="Center" VerticalOptions="CenterAndExpand"></Label>
             <Image Source="logofortis.png"></Image>
                     <Label Text="Fotis Physio and Wellness is committed to providing high quality assessment and treatment of all injuries from accidents, sports, workplace injuries or chronic pain.We treat variety of conditions, including pre and post-surgery rehabilitation." HorizontalOptions="Center" VerticalOptions="CenterAndExpand"></Label>
-                    
+            <Button Text="Services" Clicked="Services_Clicked"></Button>        
+            <Button Text="Request an Appointment" Clicked="Book_Appointment"></Button>
 
                 </StackLayout>
                 </ContentPage.Content>
