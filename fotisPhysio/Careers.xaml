@@ -17,5 +17,4 @@
          <Button Text="Apply" Clicked="Apply" TextColor="Black" Margin="300,290,10,305"></Button>
         </Grid>
     </ContentPage.Content>
-   
 </ContentPage>
