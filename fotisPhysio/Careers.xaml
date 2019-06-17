@@ -1,7 +1,21 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="fotisPhysio.Careers" Title="Career">
     <ContentPage.Content>
-         <Label Text="I am Careers Page"></Label>
+        <Grid>
+         <Label Text = "Careers" FontSize="Large" Margin="20,20,20,20" TextColor="Teal"></Label>
+         <Label Text=" Openings" Margin="15,45" FontSize="Large" TextColor="Teal"></Label>
+         <Label Text="Physio assistant/Administration" FontSize="Large" Margin="20,70"></Label>
+         <Button Text="Apply" Clicked="Apply" TextColor="Black" Margin="300,60,10,535"></Button>
+         <Label Text="Registered Physiotherapist (PT) , 
+            Pelivc Health, Accupunture" FontSize="Large" Margin="20,130"></Label>
+         <Button Text="Apply" Clicked="Apply" TextColor="Black" Margin="300,130,10,465"></Button>
+         <Label Text="Doctor of Chiropractor (DC) , 
+           Accupuncture" FontSize="Large" Margin="20,210"></Label>
+         <Button Text="Apply" Clicked="Apply" TextColor="Black" Margin="300,200,10,395"></Button>
+         <Label Text="Registered Massage Therapist
+                (RMT), Prenatal Massage." FontSize="Large" Margin="20,285"></Label>
+         <Button Text="Apply" Clicked="Apply" TextColor="Black" Margin="300,290,10,305"></Button>
+        </Grid>
     </ContentPage.Content>
    
 </ContentPage>

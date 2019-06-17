@@ -1,7 +1,14 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="fotisPhysio.Contact_Us" Title="Contact Us">
     <ContentPage.Content>
-         <Label Text="I am Contact us Page need to add contact details"></Label>
+        <Grid>
+         <Label Text="Contact" FontSize="Large" Margin="125" HorizontalOptions="Center" TextColor="Navy"></Label>
+         <Label Text="Fotis Physio and Wellness" FontSize="Large" Margin="75,160,0,0" TextColor="Teal"></Label>
+         <Label Text="829 Big Bay Point Rd, Unit 10Barrie, ON L4N 0G5" Margin="25,200,0,20"></Label>
+         <Label Text="Cell:  (705) 985-4567" Margin="25,225,0,20"></Label>
+         <Label Text="Office: (866) 700-8054" Margin="25,250,0,20"></Label>
+         <Label Text="Mail: info@fotisphysio.com" Margin="25,275,0,20"></Label>
+        </Grid>
    
     </ContentPage.Content>
 </ContentPage>

@@ -11,5 +11,10 @@ namespace fotisPhysio
         {
             InitializeComponent();
         }
+
+        public async void About_us(object sender, System.EventArgs e)
+        {
+            await Navigation.PushAsync(new Services());
+        }
     }
 }
