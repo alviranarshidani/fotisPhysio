@@ -4,11 +4,11 @@
         <Grid>
          <Label Text="About Us" FontSize="Large" Margin="100" HorizontalOptions="Center" TextColor="Navy"></Label>
          <Label Text="Fotis Physio and wellness provides Physiotherapy Massage and Rehabilitation services in Barrie and surrounding areas" HorizontalOptions="Center" Margin="7,130,0,0"></Label>
-         <Label Text="Our Mission Statement" FontSize="Large" Margin="100,175,0,0" TextColor="Teal"></Label>
-         <Label Text="Fotis Physio and wellness strives to provide the highest quality of one-on-one physiotherapeutic intervention. Our goal is to provide Quality care to all clientele and to work as a team with all patients to achieve optimal health and personal wellbeing." Margin="10,205,0,20"></Label>
-         <Label Text="Why Choose Fotis Physio and Wellness?" FontSize="Large" TextColor="Teal" Margin="30,300,0,0"></Label>      
+         <Label Text="Our Mission Statement" FontSize="Large" Margin="100,200,0,0" TextColor="Teal"></Label>
+         <Label Text="Fotis Physio and wellness strives to provide the highest quality of one-on-one physiotherapeutic intervention. Our goal is to provide Quality care to all clientele and to work as a team with all patients to achieve optimal health and personal wellbeing." Margin="10,230,0,20"></Label>
+         <Label Text="Why Choose Fotis Physio and Wellness?" FontSize="Large" TextColor="Teal" Margin="10,390,0,0"></Label>      
          <Label Text="To find out more about the services we offer" HorizontalOptions="Center" Margin="0,329,90,0"></Label>
-         <Button Text="Click here" Clicked="About_us" TextColor="Black" Margin="135,350,150,250"></Button>   
+         <Button Text="Click here" Clicked="About_us" TextColor="Blue" Margin="135,250,150,250"></Button>   
         </Grid>
     </ContentPage.Content>
 </ContentPage>

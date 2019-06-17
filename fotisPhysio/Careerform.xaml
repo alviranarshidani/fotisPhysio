@@ -11,6 +11,8 @@
                 </StackLayout>
             <StackLayout Grid.Row="1" VerticalOptions="StartAndExpand">
                 <Button Text="Upload" HorizontalOptions="Center" Clicked="Upload" Margin="100"></Button>
+                <Label Text="Uploaded file :" x:Name="lbl_file"
+                     Margin="10,100,100,100"></Label>
             </StackLayout>
             </Grid>
             </ContentPage.Content>
