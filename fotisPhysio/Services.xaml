@@ -5,26 +5,26 @@
         <Grid>
         
        
-            <StackLayout Grid.Row="0" Orientation="Horizontal">
+            <StackLayout Grid.Row="0" Orientation="Horizontal" Margin="10">
             <Image Source="sports1.png" HeightRequest="50" WidthRequest="50"></Image>
             <Button x:Name="sports" Text="Sports / Orthopaedic" FontSize="Large" Clicked="Sports_Orthopaedic_Physiotherapy"></Button></StackLayout>
              
-         <StackLayout Grid.Row="1" Orientation="Horizontal">
+         <StackLayout Grid.Row="1" Orientation="Horizontal" Margin="10">
                   <Image Source="chiro.png" HeightRequest="50" WidthRequest="50"></Image>
         <Button x:Name="chiropractic" Text="Chiropractic" FontSize="Large" Clicked="Chiropractic"></Button></StackLayout>
-            <StackLayout Grid.Row="2" Orientation="Horizontal">
+            <StackLayout Grid.Row="2" Orientation="Horizontal" Margin="10">
                 <Image Source="massage.png" HeightRequest="50" WidthRequest="50"></Image>
         <Button x:Name="Massage"  Text="Massage Therapy" FontSize="Large" Clicked="Massage_Therapy"></Button></StackLayout>
-            <StackLayout Grid.Row="3" Orientation="Horizontal">
+            <StackLayout Grid.Row="3" Orientation="Horizontal" Margin="10">
                  <Image Source="sports1.png" HeightRequest="50" WidthRequest="50"></Image>
         <Button x:Name="acupuncture" Text="Acupuncture" FontSize="Large" Clicked="Acupuncture"></Button></StackLayout>
-            <StackLayout Grid.Row="4" Orientation="Horizontal">
+            <StackLayout Grid.Row="4" Orientation="Horizontal" Margin="10">
                  <Image Source="sports1.png" HeightRequest="50" WidthRequest="50"></Image>
         <Button x:Name="InHome"  Text="In-Home Physio" FontSize="Large" Clicked="In_Home_Physio"></Button></StackLayout>
-            <StackLayout Grid.Row="5" Orientation="Horizontal">
+            <StackLayout Grid.Row="5" Orientation="Horizontal" Margin="10">
                  <Image Source="pelvic.png" HeightRequest="55" WidthRequest="55"></Image>
         <Button x:Name="Pelvic"  Text="Pelvic Health Therapy" FontSize="Large" Clicked="Pelvic_Health_Therapy"></Button></StackLayout>
-            <StackLayout Grid.Row="6" Orientation="Horizontal">
+            <StackLayout Grid.Row="6" Orientation="Horizontal" Margin="10">
                  <Image Source="pelvic.png" HeightRequest="55" WidthRequest="55"></Image>
         <Button x:Name="MotorVehicle"  Text="Vehicle Accident Rehab" FontSize="Large" Clicked="Motor_Vehicle_Accident_Rehab"></Button></StackLayout>
        
