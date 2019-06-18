@@ -8,7 +8,7 @@
          <Label Text="Fotis Physio and wellness strives to provide the highest quality of one-on-one physiotherapeutic intervention. Our goal is to provide Quality care to all clientele and to work as a team with all patients to achieve optimal health and personal wellbeing." Margin="10,230,0,20"></Label>
          <Label Text="Why Choose Fotis Physio and Wellness?" FontSize="Large" TextColor="Teal" Margin="10,390,0,0"></Label>      
          <Label Text="To find out more about the services we offer" HorizontalOptions="Center" Margin="0,329,90,0"></Label>
-         <Button Text="Click here" Clicked="About_us" TextColor="Blue" Margin="135,250,150,250"></Button>   
+         <Button Text="Click here" Clicked="About_us" Margin="135,300,150,250"></Button>   
         </Grid>
     </ContentPage.Content>
 </ContentPage>
