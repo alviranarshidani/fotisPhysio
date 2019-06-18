@@ -13,8 +13,19 @@ namespace fotisPhysio
         }
         async void Login_Clicked(object sender, System.EventArgs e)
         {
-            var newPage = new Dashboard();
-            await Navigation.PushAsync(newPage);
+            var UserName = User.Text;
+            var Password1 = Pass.Text;
+            if (UserName != null && Password1 != null)
+            {
+                var newPage = new Dashboard();
+                await Navigation.PushAsync(newPage);
+            }
+            else
+            {
+                await DisplayAlert("error", "enter username and password", "ok");
+            }
+
+
         }
         async void Forgot_Password_Clicked(object sender, System.EventArgs e)
         {

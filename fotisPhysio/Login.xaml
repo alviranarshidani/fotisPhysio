@@ -5,9 +5,9 @@
             <StackLayout Grid.Row="0" Margin="0,150,0,0">
                
                     
-                <Entry Placeholder="username" Margin="10,10,10,10" ></Entry>
+                <Entry Placeholder="username" x:Name="User" Margin="10,10,10,10" ></Entry>
                  
-                <Entry Placeholder="Password" Margin="10,10,10,10" ></Entry>
+                <Entry Placeholder="Password" x:Name="Pass" Margin="10,10,10,10" ></Entry>
                <Button Text="Forgot Password?" HorizontalOptions="End" Margin="0,5,5,5" FontSize="Micro" Clicked="Forgot_Password_Clicked"></Button>
                 
                 <Button Text="Login" HorizontalOptions="Center" Clicked="Login_Clicked"></Button>
