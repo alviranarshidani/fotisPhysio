@@ -12,22 +12,20 @@ namespace fotisPhysio
         {
             InitializeComponent();
         }
-        //protected override async void OnAppearing()
-        //{
-        //    //using (SQLiteConnection conn = new SQLiteConnection(App.DatabasePath))
-        //    //{
-        //    //    conn.Execute("Select * from Users where UserId=1");
+        protected override void OnAppearing()
+        {
+            using (SQLiteConnection db = new SQLiteConnection(App.DatabasePath))
+            {
+                
+                var user = db.Find<Users>(1);
+                lblFirstName.Text = user.FirstName;
+                lblLastName.Text = user.LastName;
+                lblEmail.Text = user.Email;
 
+            }
 
+            }
 
+        }
 
-             
-        //    //}
-
-
-
-        //}
-       
     }
-    
-}

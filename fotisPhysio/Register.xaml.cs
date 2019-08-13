@@ -23,7 +23,7 @@ namespace fotisPhysio
 
             Users user = new Users()
             {
-
+                
                 FirstName = firstName,
                 LastName = lastName,
                 Email = email,

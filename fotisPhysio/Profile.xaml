@@ -4,15 +4,21 @@
     <ContentPage.Content>
         <StackLayout HorizontalOptions="CenterAndExpand">
             <Image Source="ic_user.png" HeightRequest="100" HorizontalOptions="Center" Margin="0,30,0,0"></Image>
+                
+            <Label Text="First Name" TextColor="Navy" />
+            <Label x:Name="lblFirstName" Text="{Binding FirstName}" TextColor="Teal" />
             
-            <Label Text="{Binding FirstName}"  />
-             <Label Text="{Binding LastName}"  />
-             <Label Text="{Binding Email}"  />
+            <Label Text="Last Name" TextColor="Navy" />
+            <Label x:Name="lblLastName" Text="{Binding LastName}" TextColor="Teal" />
+            
+            <Label Text="Email" TextColor="Navy" />
+            <Label x:Name="lblEmail" Text="{Binding Email}" TextColor="Teal" />
           
-            <Label Text="Emergency Contact Details" Margin="0,30,0,0"></Label>
+            <!--commented emergency details for now to use with UserId ref. and create a form for it to enter data.-->
+            <!--<Label Text="Emergency Contact Details" Margin="0,30,0,0"></Label>
             <Editor Placeholder="Name" PlaceholderColor="Gray" />
             <Editor Placeholder="Phone No." PlaceholderColor="Gray" />
-            <Editor Placeholder="Relation" PlaceholderColor="Gray" />
+            <Editor Placeholder="Relation" PlaceholderColor="Gray" />-->
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

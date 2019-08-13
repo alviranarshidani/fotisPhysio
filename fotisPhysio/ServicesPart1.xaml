@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="fotisPhysio.ServicesPart1">
     <ContentPage.Content>
         <StackLayout>
             
-        <Label x:Name="title" HorizontalOptions="Center" Font="Bold" FlowDirection="MatchParent"></Label>
-        <Label x:Name="Title_Description"></Label></StackLayout>
+        <Label x:Name="title" HorizontalOptions="Center" Font="Bold" FlowDirection="MatchParent" TextColor="Navy"></Label>
+        <Label x:Name="Title_Description" TextColor="Teal"></Label></StackLayout>
     </ContentPage.Content>
 </ContentPage>

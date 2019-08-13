@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="fotisPhysio.Login" Title="Login">
     <ContentPage.Content>
         <Grid>
@@ -8,14 +8,15 @@
                 <Entry Placeholder="username" x:Name="User" Margin="10,10,10,10" ></Entry>
                  
                 <Entry Placeholder="Password" x:Name="Pass" Margin="10,10,10,10" ></Entry>
-               <Button Text="Forgot Password?" HorizontalOptions="End" Margin="0,5,5,5" FontSize="Micro" Clicked="Forgot_Password_Clicked"></Button>
+                <Button Text="Forgot Password?" HorizontalOptions="End" Margin="0,5,5,5" FontSize="Micro" Clicked="Forgot_Password_Clicked" TextColor="Navy"></Button>
                 
-                <Button Text="Login" HorizontalOptions="Center" Clicked="Login_Clicked"></Button>
+                <Button Text="Login" HorizontalOptions="Center" Clicked="Login_Clicked" TextColor="Navy"></Button>
+                
                 <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
-                <ImageButton Source="th-2.jpeg" HeightRequest="35" WidthRequest="35"></ImageButton>
-                <ImageButton Source="th-3.jpeg" HeightRequest="45" WidthRequest="50"></ImageButton>
-            </StackLayout>
-                    <Button Text="New User?" HorizontalOptions="Center" FontSize="Micro" Clicked="NewUser_Clicked"></Button>
+                    <ImageButton Source="th-2.jpeg" HeightRequest="35" WidthRequest="35" ></ImageButton>
+                    <ImageButton Source="th-3.jpeg" HeightRequest="45" WidthRequest="50" ></ImageButton>
+                </StackLayout>
+                    <Button Text="New User?" HorizontalOptions="Center" FontSize="Micro" Clicked="NewUser_Clicked" TextColor="Navy" ></Button>
             </StackLayout>
             
              

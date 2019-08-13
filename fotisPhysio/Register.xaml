@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="fotisPhysio.Register">
     <ContentPage.Content>
         <Grid>
@@ -13,7 +13,7 @@
                 <Entry Placeholder="Confirm Password" x:Name="ConfirmPassword"  Margin="10,10,10,10"></Entry>
             </StackLayout>
             <StackLayout Grid.Row="1" VerticalOptions="StartAndExpand">
-                <Button Text="Register" HorizontalOptions="Center" Clicked="Register_Clicked"></Button>
+                <Button Text="Register" HorizontalOptions="Center" Clicked="Register_Clicked" TextColor="Navy"></Button>
             </StackLayout>
         </Grid>
     </ContentPage.Content>

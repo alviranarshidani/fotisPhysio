@@ -25,7 +25,7 @@ namespace fotisPhysio.iOS
         {
             global::Xamarin.Forms.Forms.Init();
 
-            string dbName = "DBphotos.db3";
+            string dbName = "DBfotis.db3";
             string folderPath = Path.Combine(System.Environment.GetFolderPath(System.Environment.SpecialFolder.MyDocuments), "..", "Library");
             string dbPath = Path.Combine(folderPath, dbName);
 
