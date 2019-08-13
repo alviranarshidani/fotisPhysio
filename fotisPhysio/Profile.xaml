@@ -5,11 +5,10 @@
         <StackLayout HorizontalOptions="CenterAndExpand">
             <Image Source="ic_user.png" HeightRequest="100" HorizontalOptions="Center" Margin="0,30,0,0"></Image>
             
-            <Editor Placeholder="First Name" PlaceholderColor="Gray" />
-            <Editor Placeholder="Last Name" PlaceholderColor="Gray" />
-            <Editor Placeholder="Email" PlaceholderColor="Gray" />
-            <Editor Placeholder="Phone No." PlaceholderColor="Gray" />
-            
+            <Label Text="{Binding FirstName}"  />
+             <Label Text="{Binding LastName}"  />
+             <Label Text="{Binding Email}"  />
+          
             <Label Text="Emergency Contact Details" Margin="0,30,0,0"></Label>
             <Editor Placeholder="Name" PlaceholderColor="Gray" />
             <Editor Placeholder="Phone No." PlaceholderColor="Gray" />

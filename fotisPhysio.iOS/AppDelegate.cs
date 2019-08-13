@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 
 using Foundation;
@@ -23,7 +24,13 @@ namespace fotisPhysio.iOS
         public override bool FinishedLaunching(UIApplication app, NSDictionary options)
         {
             global::Xamarin.Forms.Forms.Init();
-            LoadApplication(new App());
+
+            string dbName = "DBphotos.db3";
+            string folderPath = Path.Combine(System.Environment.GetFolderPath(System.Environment.SpecialFolder.MyDocuments), "..", "Library");
+            string dbPath = Path.Combine(folderPath, dbName);
+
+            LoadApplication(new App(dbPath));
+            //LoadApplication(new App());
 
             return base.FinishedLaunching(app, options);
         }

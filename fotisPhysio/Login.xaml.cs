@@ -29,7 +29,7 @@ namespace fotisPhysio
                 if (((Regex.IsMatch(UserName, emailPattern)) || (Regex.IsMatch(Password1,passwordRegex))))
                 {
 
-                    await DisplayAlert("Messagae", "Email is valid", "ok");
+                    await DisplayAlert("Messagae", "Login Successfully", "ok");
 
 
                     var newPage = new Dashboard();
@@ -38,7 +38,7 @@ namespace fotisPhysio
                 else
                 {
 
-                    await DisplayAlert("Error", "Email is Invalid", "ok");
+                    await DisplayAlert("Error", "Please enter Valid email and password", "ok");
                 }
             }
 

@@ -6,11 +6,11 @@
                 
             
             <StackLayout Grid.Row="0" VerticalOptions="Center">
-                <Entry Placeholder="Enter First Name" Margin="10,10,10,10"></Entry>
-                <Entry Placeholder="Enter Last Name" Margin="10,10,10,10"></Entry>
-                <Entry Placeholder="Enter Email" Margin="10,10,10,10"></Entry>
-                <Entry Placeholder="Enter Password" Margin="10,10,10,10"></Entry>
-                <Entry Placeholder="Confirm Password" Margin="10,10,10,10"></Entry>
+                <Entry Placeholder="Enter First Name" x:Name="FirstName" Margin="10,10,10,10"></Entry>
+                <Entry Placeholder="Enter Last Name" x:Name="LastName" Margin="10,10,10,10"></Entry>
+                <Entry Placeholder="Enter Email" x:Name="Email" Margin="10,10,10,10"></Entry>
+                <Entry Placeholder="Enter Password" x:Name="Password" Margin="10,10,10,10"></Entry>
+                <Entry Placeholder="Confirm Password" x:Name="ConfirmPassword"  Margin="10,10,10,10"></Entry>
             </StackLayout>
             <StackLayout Grid.Row="1" VerticalOptions="StartAndExpand">
                 <Button Text="Register" HorizontalOptions="Center" Clicked="Register_Clicked"></Button>

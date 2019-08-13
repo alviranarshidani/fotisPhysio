@@ -6,11 +6,25 @@ namespace fotisPhysio
 {
     public partial class App : Application
     {
+        public static string DatabasePath = string.Empty;
         public App()
         {
             InitializeComponent();
 
-            MainPage = new MainPage();
+            //MainPage = new MainPage();
+
+
+            MainPage = new NavigationPage(new MainPage());
+            
+        }
+        public App(String databasePath)
+        {
+            InitializeComponent();
+            DatabasePath = databasePath;
+            //MainPage = new MainPage();
+            MainPage = new NavigationPage(new MainPage());
+
+
         }
 
         protected override void OnStart()
