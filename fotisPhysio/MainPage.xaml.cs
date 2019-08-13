@@ -13,19 +13,19 @@ namespace fotisPhysio
     [DesignTimeVisible(true)]
     public partial class MainPage : MasterDetailPage
     {
-        void Handle_Clicked_4(object sender, System.EventArgs e)
+        void Careers_Clicked(object sender, System.EventArgs e)
         {
             Detail = new NavigationPage(new Careers());
             IsPresented = false;
         }
 
-        void Handle_Clicked_3(object sender, System.EventArgs e)
+        void Contact_Clicked(object sender, System.EventArgs e)
         {
             Detail = new NavigationPage(new Contact_Us());
             IsPresented = false;
         }
 
-        void Handle_Clicked_2(object sender, System.EventArgs e)
+        void About_Clicked(object sender, System.EventArgs e)
         {
             Detail = new NavigationPage(new About_Us());
             IsPresented = false;
@@ -39,7 +39,7 @@ namespace fotisPhysio
 
         }
 
-        void Handle_Clicked(object sender, System.EventArgs e)
+        void Login_Clicked(object sender, System.EventArgs e)
 
         {
             Detail = new NavigationPage(new Login());
@@ -56,7 +56,7 @@ namespace fotisPhysio
             IsPresented = false;
         }
 
-        void Handle_Clicked_1(object sender, System.EventArgs e)
+        void Services_Clicked(object sender, System.EventArgs e)
         {
             Detail = new NavigationPage(new Services());
             IsPresented = false;
