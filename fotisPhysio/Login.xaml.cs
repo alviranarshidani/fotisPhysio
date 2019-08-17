@@ -1,16 +1,34 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text.RegularExpressions;
+using System.Threading.Tasks;
+using Firebase.Database;
+using Firebase.Database.Query;
+using fotisPhysio.Models;
 using Xamarin.Forms;
 
 namespace fotisPhysio
 {
     public partial class Login : ContentPage
     {
+        FirebaseHelper firebaseHelper = new FirebaseHelper();
+        FirebaseClient firebase = new FirebaseClient("https://fotisphysio-db71e.firebaseio.com/");
+        
         public Login()
         {
             InitializeComponent();
+            
+
         }
+        protected async override void OnAppearing()
+        {
+
+            base.OnAppearing();
+            var allUsers = await firebaseHelper.GetAllUsers();
+            lstUsers.ItemsSource = allUsers;
+        }
+
+
         async void Login_Clicked(object sender, System.EventArgs e)
         {
             //public static string emailRegex = @"^(?("")("".+?(?<!\\)""@)|(([0-9a-z]((\.(?!\.))|[-!#\$%&'\\+/=\?\^`\{\}\|~\w]))(?<=[0-9a-z])@))" +
@@ -22,18 +40,30 @@ namespace fotisPhysio
 
            var passwordRegex = "^(?=.[a-z])(?=.[A-Z])(?=.\\d)(?=.[@$!%?&])[A-Za-z\\d@$!%?&]{8,}$";
 
-            var UserName = User.Text;
-            var Password1 = Pass.Text;
-            if (UserName != null && Password1 != null)
+            var email = Email.Text;
+            var password  = Password.Text;
+
+            if (email != null && password != null)
             {
-                if (((Regex.IsMatch(UserName, emailPattern)) || (Regex.IsMatch(Password1,passwordRegex))))
+                if (((Regex.IsMatch(email, emailPattern)) || (Regex.IsMatch(password,passwordRegex))))
                 {
 
-                    await DisplayAlert("Messagae", "Login Successfully", "ok");
+                    //await DisplayAlert("Messagae", "Login Successfully", "ok");
 
 
-                    var newPage = new Dashboard();
-                    await Navigation.PushAsync(newPage);
+                    //var newPage = new Dashboard();
+                    //await Navigation.PushAsync(newPage);
+
+                    var user = await firebaseHelper.GetUser(email, password);
+                    if (user != null)
+                    {
+                        //await DisplayAlert("Found", "User Found", "ok");
+                        var newPage = new Dashboard(user);
+                        await Navigation.PushAsync(newPage);
+
+                        
+
+                    }
                 }
                 else
                 {
@@ -44,14 +74,13 @@ namespace fotisPhysio
 
             else
             {
-                await DisplayAlert("error", "enter username and password", "ok");
+                await DisplayAlert("error", "enter email and password", "ok");
             }
 
             
-        
 
 
-    }
+        }
         async void Forgot_Password_Clicked(object sender, System.EventArgs e)
         {
             var newPage = new ForgetPassword();
@@ -62,5 +91,7 @@ namespace fotisPhysio
             var newPage = new Register();
             await Navigation.PushAsync(newPage);
         }
+
+       
     }
 }

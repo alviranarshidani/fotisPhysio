@@ -8,6 +8,8 @@ using Android.Widget;
 using Android.OS;
 using System.IO;
 
+using System.Threading.Tasks;
+
 namespace fotisPhysio.Droid
 {
     [Activity(Label = "fotisPhysio", Icon = "@mipmap/icon", Theme = "@style/MainTheme", MainLauncher = true, ConfigurationChanges = ConfigChanges.ScreenSize | ConfigChanges.Orientation)]
@@ -29,12 +31,18 @@ namespace fotisPhysio.Droid
 
             //LoadApplication(new App(dbPath));
             LoadApplication(new App(dbPath));
+
         }
         public override void OnRequestPermissionsResult(int requestCode, string[] permissions, [GeneratedEnum] Android.Content.PM.Permission[] grantResults)
         {
             Xamarin.Essentials.Platform.OnRequestPermissionsResult(requestCode, permissions, grantResults);
 
             base.OnRequestPermissionsResult(requestCode, permissions, grantResults);
+        }
+
+        public Task<string> LoginWithEmailPassword(string email, string password)
+        {
+            throw new NotImplementedException();
         }
     }
 }

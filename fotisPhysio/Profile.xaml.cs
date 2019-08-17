@@ -8,11 +8,23 @@ namespace fotisPhysio
 {
     public partial class Profile : ContentPage
     {
+        Users user;
         public Profile()
         {
             InitializeComponent();
+            
+
         }
-        protected override void OnAppearing()
+
+        public Profile(Users u)
+        {
+            InitializeComponent();
+            user = u;
+            lblFirstName.Text = user.FirstName;
+            lblLastName.Text = user.LastName;
+            lblEmail.Text = user.Email;
+        }
+       /* protected override void OnAppearing()
         {
             using (SQLiteConnection db = new SQLiteConnection(App.DatabasePath))
             {
@@ -23,8 +35,9 @@ namespace fotisPhysio
                 lblEmail.Text = user.Email;
 
             }
+           
 
-            }
+        }*/
 
         }
 

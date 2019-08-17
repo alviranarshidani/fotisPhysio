@@ -31,7 +31,7 @@ namespace fotisPhysio.iOS
 
             LoadApplication(new App(dbPath));
             //LoadApplication(new App());
-
+            
             return base.FinishedLaunching(app, options);
         }
     }
